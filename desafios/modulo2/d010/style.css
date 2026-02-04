@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+p {
+    text-indent: 25px;
+}
+
+strong {
+    color: #3F7557;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, #3DDB83, #1A5C38);
+    color: white;
+    width: 100%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507);;
+}
+
+header > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507);
+
+    margin: 0px 0px 20px 0px;
+    padding-top: 30px;
+    
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav > a {
+    color: #69da9c96;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: #69da9c96;
+    color: #1A5C38;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    width: 60%;
+    text-align: justify;
+    border-radius: 0px 0px 15px 15px;
+}
+
+main > h1 {
+    color: #195B37;
+    font-family: Idroid;
+    font-weight: normal;
+    margin: 0px;
+}
+
+main a {
+    color: #4F8266;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #C8ECD8;
+
+    padding: 2px 5px;
+}
+
+main a::after {
+    content: ' 🧷';
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, #C8ECD8, white);
+    font-family: Idroid;
+    padding-left: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+section.video {
+    background-color: #1A5C38;
+    padding: 10px;
+    margin: -15px;
+}
+
+section.video > div {
+    margin: auto;
+}
+
+aside {
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 15px 15px;
+    padding: 5px;
+}
+
+.titulo-aside {
+    background-color: #2FA866;
+    color: white;
+    font-weight: 200px;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: rgb(207, 206, 206);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+footer > p {
+    margin: 0px
+}
